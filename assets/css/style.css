@@ -3,18 +3,26 @@ html {
 }
 
 body.ric-fonts {
-    font-family: 'Cabin', sans-serif;
+    font-family: 'Oswald', sans-serif;
     color: #373A3C;
 }
 
 
 /* MENU ======== */
+.header{
+  background: url(../img/bg-header.jpeg) no-repeat center;
+  background-size: cover;
+  min-height: 100vh;
+ 
+}
 .navbar {
-    background-color: #373A3C;
+    background-color: #1a4461;
+    
 }
 
+
 .navbar-brand.logo {
-    font-family: 'Lobster', cursive;
+    font-family: 'Fascinate', cursive;
     font-size: 37px;
 }
 
@@ -25,8 +33,22 @@ body.ric-fonts {
 a.nav-link {
     color: #fff;
 }
+icon-svg {
+    font-size: 10px;
+    }
+/* CARRUSEL ======== */
 
-/* TEXTOS ======== */
+.carousel-control-prev{
+    color: black;
+}
+
+/* Quienes somos ======== */
+.contenedor-icon i {
+font-size: 50px;
+text-align: center;
+color: #ffffff;
+background: #1a4461;
+}
 h1.title {
     font-size: 40px;
     font-weight: 700;
